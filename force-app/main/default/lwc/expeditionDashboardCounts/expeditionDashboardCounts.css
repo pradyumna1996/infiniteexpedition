@@ -1,0 +1,31 @@
+.dashboard-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.stat-box {
+    text-align: center;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #0070d2;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-weight: bold;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.label {
+    margin-top: 0.5rem;
+    font-weight: 500;
+}

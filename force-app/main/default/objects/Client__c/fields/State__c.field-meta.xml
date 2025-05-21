@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>State__c</fullName>
+    <label>State</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Country__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Province 1</fullName>
+                <default>false</default>
+                <label>Province 1</label>
+            </value>
+            <value>
+                <fullName>Province 2</fullName>
+                <default>false</default>
+                <label>Province 2</label>
+            </value>
+            <value>
+                <fullName>Gujarat</fullName>
+                <default>false</default>
+                <label>Gujarat</label>
+            </value>
+            <value>
+                <fullName>Maharashtra</fullName>
+                <default>false</default>
+                <label>Maharashtra</label>
+            </value>
+            <value>
+                <fullName>California</fullName>
+                <default>false</default>
+                <label>California</label>
+            </value>
+            <value>
+                <fullName>Texas</fullName>
+                <default>false</default>
+                <label>Texas</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Nepal</controllingFieldValue>
+            <valueName>Province 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nepal</controllingFieldValue>
+            <valueName>Province 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>India</controllingFieldValue>
+            <valueName>Gujarat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>India</controllingFieldValue>
+            <valueName>Maharashtra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>California</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>Texas</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

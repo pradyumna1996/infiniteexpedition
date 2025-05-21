@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Phone_Must_Be_10_Digits</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(REGEX(Phone__c, &quot;^98[0-9]{8}$&quot;))</errorConditionFormula>
+    <errorDisplayField>Phone__c</errorDisplayField>
+    <errorMessage>Phone NUmber Minimum 10 Digits And Starts With 98</errorMessage>
+</ValidationRule>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Duplicate_Name</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(ISNEW()) &amp;&amp; 
+Name &lt;&gt; PRIORVALUE(Name) &amp;&amp; 
+!ISBLANK(Name) &amp;&amp;
+NOT(ISNULL(
+  VLOOKUP(
+    $ObjectType.Destination__c.Fields.Id,
+    $ObjectType.Destination__c.Fields.Name,
+    Name
+  )
+))</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>The Destination Already Exists !</errorMessage>
+</ValidationRule>
