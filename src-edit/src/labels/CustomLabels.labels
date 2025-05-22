@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+        
+    <labels>
+        <fullName>CQE3MP_DETAILS</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Details</value>
+    </labels>
+        
+    
+        
+    <labels>
+        <fullName>CQE3MP_IMPACTED_PART_LOT</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Impacted Part / Lot</value>
+    </labels>
+        
+    
+        
+    <labels>
+        <fullName>CQE3MP_CUSTOM_LINKS</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Custom Links</value>
+    </labels>
+        
+    
+
+    
+</CustomLabels>

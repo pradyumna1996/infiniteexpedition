@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <name>LightningComponentBundle</name>
+    <members>cquiE3MNonconformanceCreate</members>
+  </types>
+  
+    <types>
+      <name>CustomMetadata</name>
+      <members>compliancequest__CQ_Action_Override.CQUI_E3M_Nonconformance_Create</members>
+      
+    </types>
+  
+  
+  <types>
+      
+        
+      <members>CQE3M_DETAILS</members>
+        
+    
+        
+      <members>CQE3M_IMPACTED_PARTLOT</members>
+        
+    
+        
+      <members>CQE3M_REFERENCES</members>
+        
+    
+        
+      <members>CQE3M_CUSTOM_LINKS</members>
+        
+    
+    <name>CustomLabel</name>
+  </types>
+  <types>
+      <members>CustomLabels</members>
+      <name>CustomLabels</name>
+  </types>
+  <version>53.0</version>
+</Package>
