@@ -48,7 +48,8 @@
 		<name>Flow</name>
 	</types>
 	<types>
-		<members>expeditionDashboardCounts</members>
+		<members>cquiE3MNonconformanceCreate</members>
+		<members>cquiE3MPNonconformanceEdit</members>
 		<name>LightningComponentBundle</name>
 	</types>
 	<types>
@@ -72,5 +73,5 @@
 		<members>Trek__c.StartDate_IsNOt_PastDate</members>
 		<name>ValidationRule</name>
 	</types>
-	<version>63.0</version>
+	<version>64.0</version>
 </Package>
