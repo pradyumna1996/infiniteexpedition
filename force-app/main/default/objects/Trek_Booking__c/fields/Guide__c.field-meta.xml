@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Guide__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <label>Guide</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Guide is Already Assigned Cannot Assign Again.</errorMessage>
+        <filterItems>
+            <field>Guide__c.isBooked__c</field>
+            <operation>equals</operation>
+            <value>Available</value>
+        </filterItems>
+        <filterItems>
+            <field>$Source.Booking_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Confirmed</value>
+        </filterItems>
+        <infoMessage>Only available guides can be assigned.</infoMessage>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Guide__c</referenceTo>
+    <relationshipLabel>Trek Bookings</relationshipLabel>
+    <relationshipName>Trek_Bookings</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

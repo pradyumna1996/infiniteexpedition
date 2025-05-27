@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Booking_Date_Cannot_Be_Past_Date_Modifie</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+    ISNEW() &amp;&amp; Booking_Date__c &lt; TODAY(), 
+    NOT(ISNEW()) &amp;&amp; ISCHANGED(Booking_Date__c)
+)</errorConditionFormula>
+    <errorDisplayField>Booking_Date__c</errorDisplayField>
+    <errorMessage>Booking Date Should Not Be Past Date</errorMessage>
+</ValidationRule>
